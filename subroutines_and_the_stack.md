@@ -3,3 +3,5 @@ Before starting the execution of a subroutine the call instruction pushes the re
 the return instruction sets rsp to rbp thus releasing the space allocated to the subroutine. It pops the return address from the stack into rip thus resuming the executio at the saved return address
 
 So when a subroutine is called the first value push to the stack is the rip and then the rbp
+
+The sequence of arguments in a 64 bit are rdi;rsi;rdx;rcx;r8;r9
