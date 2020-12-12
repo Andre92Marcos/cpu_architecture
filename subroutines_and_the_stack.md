@@ -15,6 +15,7 @@ So when a function starts (so it has just been called):
 
 	1st) The RBP is pushed to the stack (push rbp)
 	2nd) The RSP points to the RBP. (mov rbp,rsp)
+	3rd) Grap the function arguments from the registers to the stack
 
 At the end of a function:
 	1st) We pop RBP;
